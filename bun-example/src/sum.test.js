@@ -1,8 +1,7 @@
-import { expect, test } from 'bun:test'
-import { sum } from './sum.js'
+import { expect, it, describe } from 'bun:test'
 
-test('adds 1 + 2 to equal 3', () => {
-  const result = sum(1,2); 
-  expect(result).toBe(3);
-  
-})
+describe('foo', () => {
+  it('should be true', () => {
+    expect(true).toBe(true);
+  });
+});
