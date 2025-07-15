@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "vitest",
+    "test": "CI=true vitest",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
